@@ -1,0 +1,764 @@
+[
+    {
+        "topoObjectType": "node",
+        "topologyIndex": 1,
+        "name": "0110.0000.0101",
+        "nodeIndex": 1,
+        "layer": "IP",
+        "live": true,
+        "AutonomousSystem": {
+            "asNumber": 11
+        },
+        "routerId": "11.0.0.101",
+        "protocols": {
+            "ISIS": {
+                "routerId": "11.0.0.101",
+                "TERouterId": "11.0.0.101",
+                "isoAddress": "0110.0000.0101",
+                "area": "490011"
+            },
+            "NETCONF": {
+                "operationalStatus": "Up",
+                "operationalState": "Connected",
+                "clientAddress": "172.16.18.101",
+                "sessionParameters": {
+                    "keepalive": 300
+                },
+                "clientCapabilities": [
+                    "http://xml.juniper.net/dmi/system/1.0",
+                    "http://xml.juniper.net/netconf/junos/1.0",
+                    "urn:ietf:params:netconf:base:1.0",
+                    "urn:ietf:params:netconf:capability:candidate:1.0",
+                    "urn:ietf:params:netconf:capability:confirmed-commit:1.0",
+                    "urn:ietf:params:netconf:capability:url:1.0?scheme=http,ftp,file",
+                    "urn:ietf:params:netconf:capability:validate:1.0",
+                    "urn:ietf:params:xml:ns:netconf:base:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:candidate:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file",
+                    "urn:ietf:params:xml:ns:netconf:capability:validate:1.0",
+                    "urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring"
+                ]
+            },
+            "PCEP": {
+                "operationalStatus": "Up",
+                "pccAddress": "10.102.183.157",
+                "sessionParameters": {
+                    "keepalive": 30585592,
+                    "deadtimer": 0,
+                    "maximumStackDepth": 7
+                },
+                "peerStatefullCapabilities": {
+                    "lspUpdate": true,
+                    "lspInstantiation": true,
+                    "p2mp": true,
+                    "p2mpUpdate": false,
+                    "p2mpInstantiation": false,
+                    "SRCapability": true
+                }
+            },
+            "management": {
+                "address": "172.16.18.101",
+                "vendor": "JUNIPER",
+                "operatingSystemVersion": "17.2-20170620.0"
+            },
+            "SR": {
+                "SRGBs": [
+                    {
+                        "start": 1000,
+                        "range": 210
+                    }
+                ],
+                "enabled": true
+            }
+        },
+        "hostName": "vmx101",
+        "configurationDataSource": {
+            "latest": {
+                "href": "/NorthStar/API/v1/tenant/1/topology/1/nodes/1/device/configurationDataSource/latest"
+            }
+        },
+        "prefixes": [
+            {
+                "topoObjectType": "prefix",
+                "address": "11.0.0.101",
+                "length": 32,
+                "role": "routerId",
+                "SR": {
+                    "index": 101,
+                    "algo": 0,
+                    "flags": 64
+                }
+            }
+        ]
+    },
+    {
+        "topoObjectType": "node",
+        "topologyIndex": 1,
+        "name": "0110.0000.0102",
+        "nodeIndex": 2,
+        "layer": "IP",
+        "live": true,
+        "AutonomousSystem": {
+            "asNumber": 11
+        },
+        "routerId": "11.0.0.102",
+        "protocols": {
+            "ISIS": {
+                "routerId": "11.0.0.102",
+                "TERouterId": "11.0.0.102",
+                "isoAddress": "0110.0000.0102",
+                "area": "490011"
+            },
+            "NETCONF": {
+                "operationalStatus": "Up",
+                "operationalState": "Connected",
+                "clientAddress": "172.16.18.102",
+                "sessionParameters": {
+                    "keepalive": 300
+                },
+                "clientCapabilities": [
+                    "http://xml.juniper.net/dmi/system/1.0",
+                    "http://xml.juniper.net/netconf/junos/1.0",
+                    "urn:ietf:params:netconf:base:1.0",
+                    "urn:ietf:params:netconf:capability:candidate:1.0",
+                    "urn:ietf:params:netconf:capability:confirmed-commit:1.0",
+                    "urn:ietf:params:netconf:capability:url:1.0?scheme=http,ftp,file",
+                    "urn:ietf:params:netconf:capability:validate:1.0",
+                    "urn:ietf:params:xml:ns:netconf:base:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:candidate:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file",
+                    "urn:ietf:params:xml:ns:netconf:capability:validate:1.0",
+                    "urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring"
+                ]
+            },
+            "PCEP": {
+                "operationalStatus": "Up",
+                "pccAddress": "10.102.180.242",
+                "sessionParameters": {
+                    "keepalive": 30585592,
+                    "deadtimer": 0,
+                    "maximumStackDepth": 7
+                },
+                "peerStatefullCapabilities": {
+                    "lspUpdate": true,
+                    "lspInstantiation": true,
+                    "p2mp": true,
+                    "p2mpUpdate": false,
+                    "p2mpInstantiation": false,
+                    "SRCapability": true
+                }
+            },
+            "management": {
+                "address": "172.16.18.102",
+                "vendor": "JUNIPER",
+                "operatingSystemVersion": "17.2-20170620.0"
+            },
+            "SR": {
+                "SRGBs": [
+                    {
+                        "start": 2000,
+                        "range": 220
+                    }
+                ],
+                "enabled": true
+            }
+        },
+        "hostName": "vmx102",
+        "configurationDataSource": {
+            "latest": {
+                "href": "/NorthStar/API/v1/tenant/1/topology/1/nodes/2/device/configurationDataSource/latest"
+            }
+        },
+        "prefixes": [
+            {
+                "topoObjectType": "prefix",
+                "address": "11.0.0.102",
+                "length": 32,
+                "role": "routerId",
+                "SR": {
+                    "index": 102,
+                    "algo": 0,
+                    "flags": 64
+                }
+            }
+        ]
+    },
+    {
+        "topoObjectType": "node",
+        "topologyIndex": 1,
+        "name": "0110.0000.0103",
+        "nodeIndex": 3,
+        "layer": "IP",
+        "live": true,
+        "AutonomousSystem": {
+            "asNumber": 11
+        },
+        "routerId": "11.0.0.103",
+        "protocols": {
+            "ISIS": {
+                "routerId": "11.0.0.103",
+                "TERouterId": "11.0.0.103",
+                "isoAddress": "0110.0000.0103",
+                "area": "490011"
+            },
+            "NETCONF": {
+                "operationalStatus": "Up",
+                "operationalState": "Connected",
+                "clientAddress": "172.16.18.103",
+                "sessionParameters": {
+                    "keepalive": 300
+                },
+                "clientCapabilities": [
+                    "http://xml.juniper.net/dmi/system/1.0",
+                    "http://xml.juniper.net/netconf/junos/1.0",
+                    "urn:ietf:params:netconf:base:1.0",
+                    "urn:ietf:params:netconf:capability:candidate:1.0",
+                    "urn:ietf:params:netconf:capability:confirmed-commit:1.0",
+                    "urn:ietf:params:netconf:capability:url:1.0?scheme=http,ftp,file",
+                    "urn:ietf:params:netconf:capability:validate:1.0",
+                    "urn:ietf:params:xml:ns:netconf:base:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:candidate:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file",
+                    "urn:ietf:params:xml:ns:netconf:capability:validate:1.0",
+                    "urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring"
+                ]
+            },
+            "PCEP": {
+                "operationalStatus": "Up",
+                "pccAddress": "10.102.180.240",
+                "sessionParameters": {
+                    "keepalive": 30585592,
+                    "deadtimer": 0,
+                    "maximumStackDepth": 7
+                },
+                "peerStatefullCapabilities": {
+                    "lspUpdate": true,
+                    "lspInstantiation": true,
+                    "p2mp": true,
+                    "p2mpUpdate": false,
+                    "p2mpInstantiation": false,
+                    "SRCapability": true
+                }
+            },
+            "management": {
+                "address": "172.16.18.103",
+                "vendor": "JUNIPER",
+                "operatingSystemVersion": "17.2-20170620.0"
+            },
+            "SR": {
+                "SRGBs": [
+                    {
+                        "start": 3000,
+                        "range": 230
+                    }
+                ],
+                "enabled": true
+            }
+        },
+        "hostName": "vmx103",
+        "configurationDataSource": {
+            "latest": {
+                "href": "/NorthStar/API/v1/tenant/1/topology/1/nodes/3/device/configurationDataSource/latest"
+            }
+        },
+        "prefixes": [
+            {
+                "topoObjectType": "prefix",
+                "address": "11.0.0.103",
+                "length": 32,
+                "role": "routerId",
+                "SR": {
+                    "index": 103,
+                    "algo": 0,
+                    "flags": 64
+                }
+            }
+        ]
+    },
+    {
+        "topoObjectType": "node",
+        "topologyIndex": 1,
+        "name": "0110.0000.0104",
+        "nodeIndex": 4,
+        "layer": "IP",
+        "live": true,
+        "AutonomousSystem": {
+            "asNumber": 11
+        },
+        "routerId": "11.0.0.104",
+        "protocols": {
+            "ISIS": {
+                "routerId": "11.0.0.104",
+                "TERouterId": "11.0.0.104",
+                "isoAddress": "0110.0000.0104",
+                "area": "490011"
+            },
+            "NETCONF": {
+                "operationalStatus": "Up",
+                "operationalState": "Connected",
+                "clientAddress": "172.16.18.104",
+                "sessionParameters": {
+                    "keepalive": 300
+                },
+                "clientCapabilities": [
+                    "http://xml.juniper.net/dmi/system/1.0",
+                    "http://xml.juniper.net/netconf/junos/1.0",
+                    "urn:ietf:params:netconf:base:1.0",
+                    "urn:ietf:params:netconf:capability:candidate:1.0",
+                    "urn:ietf:params:netconf:capability:confirmed-commit:1.0",
+                    "urn:ietf:params:netconf:capability:url:1.0?scheme=http,ftp,file",
+                    "urn:ietf:params:netconf:capability:validate:1.0",
+                    "urn:ietf:params:xml:ns:netconf:base:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:candidate:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file",
+                    "urn:ietf:params:xml:ns:netconf:capability:validate:1.0",
+                    "urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring"
+                ]
+            },
+            "PCEP": {
+                "operationalStatus": "Up",
+                "pccAddress": "10.102.180.239",
+                "sessionParameters": {
+                    "keepalive": 30585592,
+                    "deadtimer": 0,
+                    "maximumStackDepth": 7
+                },
+                "peerStatefullCapabilities": {
+                    "lspUpdate": true,
+                    "lspInstantiation": true,
+                    "p2mp": true,
+                    "p2mpUpdate": false,
+                    "p2mpInstantiation": false,
+                    "SRCapability": true
+                }
+            },
+            "management": {
+                "address": "172.16.18.104",
+                "vendor": "JUNIPER",
+                "operatingSystemVersion": "17.2-20170620.0"
+            },
+            "SR": {
+                "SRGBs": [
+                    {
+                        "start": 4000,
+                        "range": 240
+                    }
+                ],
+                "enabled": true
+            }
+        },
+        "hostName": "vmx104",
+        "configurationDataSource": {
+            "latest": {
+                "href": "/NorthStar/API/v1/tenant/1/topology/1/nodes/4/device/configurationDataSource/latest"
+            }
+        },
+        "prefixes": [
+            {
+                "topoObjectType": "prefix",
+                "address": "11.0.0.104",
+                "length": 32,
+                "role": "routerId",
+                "SR": {
+                    "index": 104,
+                    "algo": 0,
+                    "flags": 64
+                }
+            }
+        ]
+    },
+    {
+        "topoObjectType": "node",
+        "topologyIndex": 1,
+        "name": "0110.0000.0105",
+        "nodeIndex": 5,
+        "layer": "IP",
+        "live": true,
+        "AutonomousSystem": {
+            "asNumber": 11
+        },
+        "routerId": "11.0.0.105",
+        "protocols": {
+            "ISIS": {
+                "routerId": "11.0.0.105",
+                "TERouterId": "11.0.0.105",
+                "isoAddress": "0110.0000.0105",
+                "area": "490011"
+            },
+            "NETCONF": {
+                "operationalStatus": "Up",
+                "operationalState": "Connected",
+                "clientAddress": "172.16.18.105",
+                "sessionParameters": {
+                    "keepalive": 300
+                },
+                "clientCapabilities": [
+                    "http://xml.juniper.net/dmi/system/1.0",
+                    "http://xml.juniper.net/netconf/junos/1.0",
+                    "urn:ietf:params:netconf:base:1.0",
+                    "urn:ietf:params:netconf:capability:candidate:1.0",
+                    "urn:ietf:params:netconf:capability:confirmed-commit:1.0",
+                    "urn:ietf:params:netconf:capability:url:1.0?scheme=http,ftp,file",
+                    "urn:ietf:params:netconf:capability:validate:1.0",
+                    "urn:ietf:params:xml:ns:netconf:base:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:candidate:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file",
+                    "urn:ietf:params:xml:ns:netconf:capability:validate:1.0",
+                    "urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring"
+                ]
+            },
+            "PCEP": {
+                "operationalStatus": "Up",
+                "pccAddress": "10.102.180.237",
+                "sessionParameters": {
+                    "keepalive": 30585592,
+                    "deadtimer": 0,
+                    "maximumStackDepth": 7
+                },
+                "peerStatefullCapabilities": {
+                    "lspUpdate": true,
+                    "lspInstantiation": true,
+                    "p2mp": true,
+                    "p2mpUpdate": false,
+                    "p2mpInstantiation": false,
+                    "SRCapability": true
+                }
+            },
+            "management": {
+                "address": "172.16.18.105",
+                "vendor": "JUNIPER",
+                "operatingSystemVersion": "17.2-20170620.0"
+            },
+            "SR": {
+                "SRGBs": [
+                    {
+                        "start": 5000,
+                        "range": 250
+                    }
+                ],
+                "enabled": true
+            }
+        },
+        "hostName": "vmx105",
+        "configurationDataSource": {
+            "latest": {
+                "href": "/NorthStar/API/v1/tenant/1/topology/1/nodes/5/device/configurationDataSource/latest"
+            }
+        },
+        "prefixes": [
+            {
+                "topoObjectType": "prefix",
+                "address": "11.0.0.105",
+                "length": 32,
+                "role": "routerId",
+                "SR": {
+                    "index": 105,
+                    "algo": 0,
+                    "flags": 64
+                }
+            }
+        ]
+    },
+    {
+        "topoObjectType": "node",
+        "topologyIndex": 1,
+        "name": "0110.0000.0106",
+        "nodeIndex": 6,
+        "layer": "IP",
+        "live": true,
+        "AutonomousSystem": {
+            "asNumber": 11
+        },
+        "routerId": "11.0.0.106",
+        "protocols": {
+            "ISIS": {
+                "routerId": "11.0.0.106",
+                "TERouterId": "11.0.0.106",
+                "isoAddress": "0110.0000.0106",
+                "area": "490011"
+            },
+            "NETCONF": {
+                "operationalStatus": "Up",
+                "operationalState": "Connected",
+                "clientAddress": "172.16.18.106",
+                "sessionParameters": {
+                    "keepalive": 300
+                },
+                "clientCapabilities": [
+                    "http://xml.juniper.net/dmi/system/1.0",
+                    "http://xml.juniper.net/netconf/junos/1.0",
+                    "urn:ietf:params:netconf:base:1.0",
+                    "urn:ietf:params:netconf:capability:candidate:1.0",
+                    "urn:ietf:params:netconf:capability:confirmed-commit:1.0",
+                    "urn:ietf:params:netconf:capability:url:1.0?scheme=http,ftp,file",
+                    "urn:ietf:params:netconf:capability:validate:1.0",
+                    "urn:ietf:params:xml:ns:netconf:base:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:candidate:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file",
+                    "urn:ietf:params:xml:ns:netconf:capability:validate:1.0",
+                    "urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring"
+                ]
+            },
+            "PCEP": {
+                "operationalStatus": "Up",
+                "pccAddress": "10.102.180.235",
+                "sessionParameters": {
+                    "keepalive": 30585592,
+                    "deadtimer": 0,
+                    "maximumStackDepth": 7
+                },
+                "peerStatefullCapabilities": {
+                    "lspUpdate": true,
+                    "lspInstantiation": true,
+                    "p2mp": true,
+                    "p2mpUpdate": false,
+                    "p2mpInstantiation": false,
+                    "SRCapability": true
+                }
+            },
+            "management": {
+                "address": "172.16.18.106",
+                "vendor": "JUNIPER",
+                "operatingSystemVersion": "17.2-20170620.0"
+            },
+            "SR": {
+                "SRGBs": [
+                    {
+                        "start": 6000,
+                        "range": 260
+                    }
+                ],
+                "enabled": true
+            }
+        },
+        "hostName": "vmx106",
+        "configurationDataSource": {
+            "latest": {
+                "href": "/NorthStar/API/v1/tenant/1/topology/1/nodes/6/device/configurationDataSource/latest"
+            }
+        },
+        "prefixes": [
+            {
+                "topoObjectType": "prefix",
+                "address": "11.0.0.106",
+                "length": 32,
+                "role": "routerId",
+                "SR": {
+                    "index": 106,
+                    "algo": 0,
+                    "flags": 64
+                }
+            }
+        ]
+    },
+    {
+        "topoObjectType": "node",
+        "topologyIndex": 1,
+        "name": "0110.0000.0107",
+        "nodeIndex": 7,
+        "layer": "IP",
+        "live": true,
+        "AutonomousSystem": {
+            "asNumber": 11
+        },
+        "routerId": "11.0.0.107",
+        "protocols": {
+            "ISIS": {
+                "routerId": "11.0.0.107",
+                "TERouterId": "11.0.0.107",
+                "isoAddress": "0110.0000.0107",
+                "area": "490011"
+            },
+            "NETCONF": {
+                "operationalStatus": "Up",
+                "operationalState": "Connected",
+                "clientAddress": "172.16.18.107",
+                "sessionParameters": {
+                    "keepalive": 300
+                },
+                "clientCapabilities": [
+                    "http://xml.juniper.net/dmi/system/1.0",
+                    "http://xml.juniper.net/netconf/junos/1.0",
+                    "urn:ietf:params:netconf:base:1.0",
+                    "urn:ietf:params:netconf:capability:candidate:1.0",
+                    "urn:ietf:params:netconf:capability:confirmed-commit:1.0",
+                    "urn:ietf:params:netconf:capability:url:1.0?scheme=http,ftp,file",
+                    "urn:ietf:params:netconf:capability:validate:1.0",
+                    "urn:ietf:params:xml:ns:netconf:base:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:candidate:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0",
+                    "urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file",
+                    "urn:ietf:params:xml:ns:netconf:capability:validate:1.0",
+                    "urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring"
+                ]
+            },
+            "PCEP": {
+                "operationalStatus": "Up",
+                "pccAddress": "10.102.180.233",
+                "sessionParameters": {
+                    "keepalive": 30585592,
+                    "deadtimer": 0,
+                    "maximumStackDepth": 7
+                },
+                "peerStatefullCapabilities": {
+                    "lspUpdate": true,
+                    "lspInstantiation": true,
+                    "p2mp": true,
+                    "p2mpUpdate": false,
+                    "p2mpInstantiation": false,
+                    "SRCapability": true
+                }
+            },
+            "management": {
+                "address": "172.16.18.107",
+                "vendor": "JUNIPER",
+                "operatingSystemVersion": "17.2-20170620.0"
+            },
+            "SR": {
+                "SRGBs": [
+                    {
+                        "start": 7000,
+                        "range": 270
+                    }
+                ],
+                "enabled": true
+            }
+        },
+        "hostName": "vmx107",
+        "configurationDataSource": {
+            "latest": {
+                "href": "/NorthStar/API/v1/tenant/1/topology/1/nodes/7/device/configurationDataSource/latest"
+            }
+        },
+        "prefixes": [
+            {
+                "topoObjectType": "prefix",
+                "address": "11.0.0.107",
+                "length": 32,
+                "role": "routerId",
+                "SR": {
+                    "index": 107,
+                    "algo": 0,
+                    "flags": 64
+                }
+            }
+        ]
+    },
+    {
+        "topoObjectType": "node",
+        "topologyIndex": 1,
+        "name": "0110.0000.0108",
+        "nodeIndex": 8,
+        "layer": "IP",
+        "live": true,
+        "AutonomousSystem": {
+            "asNumber": 11
+        },
+        "routerId": "11.0.0.108",
+        "protocols": {
+            "NETCONF": {
+                "operationalStatus": "Down",
+                "operationalState": "Disconnected",
+                "clientAddress": "10.102.180.151",
+                "sessionParameters": {
+                    "keepalive": 300
+                },
+                "clientCapabilities": []
+            },
+            "management": {
+                "address": "10.102.180.151",
+                "vendor": "CISCO",
+                "operatingSystemVersion": "6.1.2"
+            },
+            "SR": {
+                "SRGBs": [
+                    {
+                        "start": 800000,
+                        "range": 16385
+                    }
+                ]
+            },
+            "PCEP": {
+                "operationalStatus": "Down"
+            }
+        },
+        "hostName": "ios-xr8",
+        "configurationDataSource": {
+            "latest": {
+                "href": "/NorthStar/API/v1/tenant/1/topology/1/nodes/8/device/configurationDataSource/latest"
+            }
+        }
+    },
+    {
+        "topoObjectType": "node",
+        "topologyIndex": 1,
+        "name": "0110.0000.0112",
+        "nodeIndex": 9,
+        "layer": "IP",
+        "live": true,
+        "AutonomousSystem": {
+            "asNumber": 11
+        },
+        "routerId": "11.0.0.109",
+        "protocols": {
+            "NETCONF": {
+                "operationalStatus": "Down",
+                "operationalState": "Disconnected",
+                "clientAddress": "10.102.180.150",
+                "sessionParameters": {
+                    "keepalive": 300
+                },
+                "clientCapabilities": []
+            },
+            "management": {
+                "address": "10.102.180.150",
+                "vendor": "CISCO",
+                "operatingSystemVersion": "6.1.2"
+            },
+            "SR": {
+                "SRGBs": [
+                    {
+                        "start": 800000,
+                        "range": 16385
+                    }
+                ]
+            },
+            "PCEP": {
+                "operationalStatus": "Down"
+            }
+        },
+        "hostName": "ios-xr9",
+        "configurationDataSource": {
+            "latest": {
+                "href": "/NorthStar/API/v1/tenant/1/topology/1/nodes/9/device/configurationDataSource/latest"
+            }
+        }
+    },
+    {
+        "topoObjectType": "node",
+        "topologyIndex": 1,
+        "name": "0110.0000.0199",
+        "nodeIndex": 10,
+        "layer": "IP",
+        "live": true,
+        "AutonomousSystem": {
+            "asNumber": 11
+        },
+        "routerId": "11.0.0.199",
+        "protocols": {
+            "ISIS": {
+                "routerId": "11.0.0.199",
+                "TERouterId": "11.0.0.199",
+                "isoAddress": "0110.0000.0199",
+                "area": "110007"
+            }
+        },
+        "hostName": "vrr"
+    }
+]

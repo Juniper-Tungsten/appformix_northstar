@@ -1,0 +1,34 @@
+{
+
+"name": "Silver-102-104",
+"from": {
+"topoObjectType": "ipv4",
+"address": "11.0.0.102"
+},
+"to": {
+"topoObjectType": "ipv4",
+"address": "11.0.0.104"
+},
+"plannedProperties": {
+"bandwidth": "0",
+"setupPriority": 7,
+"holdingPriority": 7,
+"calculatedEro": [
+        {
+            "topoObjectType": "ipv4",
+            "address": "11.102.105.2",
+            "loose": false
+        },
+        {
+            "topoObjectType": "ipv4",
+            "address": "11.105.107.2",
+            "loose": false
+        },
+        {
+            "topoObjectType": "ipv4",
+            "address": "11.104.107.1",
+            "loose": false
+        }
+    ]
+}
+}
