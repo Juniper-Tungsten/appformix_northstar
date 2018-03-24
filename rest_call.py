@@ -16,6 +16,13 @@ def move_traffic():
     r = requests.post(url, data=contents, headers=headers, verify=False)
     #print(r)
 
+def move_traffic2():
+    contents = open('new_path.json', 'rb').read()
+    print(contents)
+    r = requests.put(url, data=contents, headers=headers, verify=False)
+    #print(r)
+
+
 def move_traffic_back():
     contents = open('original_path.json', 'rb').read()
     print(contents)
