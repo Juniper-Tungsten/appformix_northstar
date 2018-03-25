@@ -1,0 +1,14 @@
+    {
+        "topoObjectType": "maintenance",
+        "topologyIndex": 1,
+        "user": "admin",
+        "name": "Appformix-node-health-alert{{ current_time }}",
+        "startTime": "{{ start_time }}",
+        "endTime": "{{ end_time }}",
+        "elements": [
+            {
+                "index": {{ index_number }},
+                "topoObjectType": "node"
+            }
+        ]
+    }
