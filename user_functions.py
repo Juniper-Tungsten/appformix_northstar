@@ -8,9 +8,9 @@ import requests
 from jnpr.junos import Device
 from jnpr.junos.utils.config import Config
 
-node_url = 'http://10.10.2.54:8091/NorthStar/API/v1/tenant/1/topology/1/nodes'
-lsp_url = 'http://10.10.2.54:8091/NorthStar/API/v2/tenant/1/topology/1/te-lsps'
-maintenance_url = 'http://10.10.2.54:8091/NorthStar/API/v2/tenant/1/topology/1/maintenances'
+node_url = 'http://*:8091/NorthStar/API/v1/tenant/1/topology/1/nodes'
+lsp_url = 'http://*:8091/NorthStar/API/v2/tenant/1/topology/1/te-lsps'
+maintenance_url = 'http://*:8091/NorthStar/API/v2/tenant/1/topology/1/maintenances'
 headers = {'Authorization': 'Bearer Z28XMqGf4EPJvfDjGbAWRFp7LPXGJZzHO33mFbcJO6I=', 'Content-Type': 'application/json'}
 user = ''
 password = ''
