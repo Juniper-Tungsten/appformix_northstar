@@ -11,7 +11,7 @@ import user_functions
 
 AppFormixInterfaceL3IncompleteEventID='606bbc82-2fae-11e8-b38d-0242ac120003'
 AppFormixCPUEventID='a8783e54-2349-11e8-b3ff-0242ac120005'
-
+AppFormixRuleOverloadBitID=''
 
 # Initialize the Flask application
 app = Flask(__name__)
@@ -21,6 +21,7 @@ def app_message_post():
     print "########################################start"
     global AppFormixInterfaceL3IncompleteEventID
     global AppFormixCPUEventID
+    global AppFormixRuleOverloadBitID
     if request.headers['Content-Type'] != 'application/json':
         abort(400, message="Expected Content-Type = application/json")
     try:
@@ -67,6 +68,14 @@ def app_message_post():
             elif state == "inactive":
             # print 'DATA_INACTIVE :: ', pprint.pprint(data)
                 print 'link back to normal. you can complete the maintenance event'
+        if event_rule_id == AppFormixRuleOverloadBitID:
+            print 'received alert to trigger overload bit'
+            if state == "active":
+                router_to_configure = user_functions.get_management_ip(device_id)
+                user_functions.set_overload_bit(router_to_configure)
+                print 'set device overload bit ' + device_id
+            elif state == "inactive":
+                print 'overload bit can be reset now'
         return json.dumps({'result': 'OK'})
     except Exception as e:
         abort(400, message="Exception processing request: {0}".format(e))
