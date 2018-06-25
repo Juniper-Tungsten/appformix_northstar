@@ -15,12 +15,14 @@ Currently it includes the following three use cases:
 
 
 #Install
+
 git clone https://github.com/Juniper/appformix_northstar
 
 
 
 
 #Configure
+
 according to your demo needs, you can modify the listener.py script to configured the corresponding event ID that is setup in appformix
 
 e.g.
