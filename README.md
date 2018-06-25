@@ -9,15 +9,15 @@ Currently it includes the following three use cases:
 
 ## Requirements
 
-1. northstar application server
-2. appformix server
-3. network topology 
+1. northstar application <br>
+2. appformix <br>
+3. network topology <br>
+
 
 
 ## Install
 
-git clone https://github.com/Juniper/appformix_northstar
-
+git clone https://github.com/Juniper/appformix_northstargy
 
 
 
