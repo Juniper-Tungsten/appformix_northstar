@@ -1,4 +1,4 @@
-#Use Cases
+## Use Case
 This repo is for Appformix related automation use case based on python script.
 Currently it includes the following three use cases:
 1. trigger Node Maintenance in Nortstar to reroute traffic bypassing the problematic node (e.g. node running at 100% CPU)
@@ -7,21 +7,21 @@ Currently it includes the following three use cases:
 
 
 
-#Requirements
+## Requirements
 
 1. northstar application server
 2. appformix server
 3. network topology 
 
 
-#Install
+## Install
 
 git clone https://github.com/Juniper/appformix_northstar
 
 
 
 
-#Configure
+## Configure
 
 according to your demo needs, you can modify the listener.py script to configured the corresponding event ID that is setup in appformix
 
