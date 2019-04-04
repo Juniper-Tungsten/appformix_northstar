@@ -36,3 +36,14 @@ e.g.<br>
 node_url = 'http://*:8091/NorthStar/API/v1/tenant/1/topology/1/nodes'<br>
 lsp_url = 'http://*:8091/NorthStar/API/v2/tenant/1/topology/1/te-lsps'<br>
 maintenance_url = 'http://*:8091/NorthStar/API/v2/tenant/1/topology/1/maintenances'<br>
+
+
+## Setting Up inbound for native JTI collection  
+
+e.g.
+auto ens3f2
+iface ens3f2 inet static
+    address 172.16.18.55
+    netmask 255.255.255.0
+
+/etc/init.d/networking restart
