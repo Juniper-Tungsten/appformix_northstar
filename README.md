@@ -40,10 +40,10 @@ maintenance_url = 'http://*:8091/NorthStar/API/v2/tenant/1/topology/1/maintenanc
 
 ## Setting Up inbound for native JTI collection  
 
-e.g.
-auto ens3f2
-iface ens3f2 inet static
-    address 172.16.18.55
-    netmask 255.255.255.0
+e.g.  
+auto ens3f2  
+iface ens3f2 inet static  
+    address 172.16.18.55  
+    netmask 255.255.255.0  
 
 /etc/init.d/networking restart
